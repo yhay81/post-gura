@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">ポスト蔵</title>
+  <desc id="desc">封をしたアーカイブ箱から年別の引き出しを通り、検索結果の札が現れる</desc>
+  <defs>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#142a2a" stroke-opacity=".055" stroke-width="2"/>
+    </pattern>
+    <filter id="rough" x="-20%" y="-20%" width="150%" height="150%">
+      <feDropShadow dx="8" dy="9" flood-color="#142a2a" flood-opacity=".95"/>
+    </filter>
+    <filter id="slip" x="-20%" y="-20%" width="160%" height="160%">
+      <feDropShadow dx="5" dy="6" flood-color="#142a2a" flood-opacity=".95"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="#f7f3e8"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect x="30" y="30" width="1140" height="570" rx="12" fill="#eee7d6" stroke="#142a2a" stroke-width="3"/>
+  <rect x="51" y="51" width="1098" height="528" rx="7" fill="none" stroke="#142a2a" stroke-opacity=".2" stroke-width="2" stroke-dasharray="8 9"/>
+
+  <g transform="translate(94 162)" filter="url(#rough)">
+    <path d="M23 2h212l14 33H9z" fill="#c9874f" stroke="#142a2a" stroke-width="6" stroke-linejoin="round"/>
+    <rect x="0" y="34" width="260" height="234" rx="8" fill="#da9c62" stroke="#142a2a" stroke-width="6"/>
+    <path d="M0 76h260M0 228h260" stroke="#142a2a" stroke-width="21"/>
+    <path d="M50 38v226M210 38v226" stroke="#142a2a" stroke-opacity=".16" stroke-width="9"/>
+    <rect x="66" y="101" width="132" height="55" rx="3" fill="#f7f3e8" stroke="#142a2a" stroke-width="5" transform="rotate(-1 132 128)"/>
+    <text x="132" y="136" fill="#142a2a" font-family="ui-monospace,monospace" font-size="21" font-weight="900" text-anchor="middle">archive.zip</text>
+    <rect x="87" y="18" width="86" height="28" fill="#ee6b42" stroke="#142a2a" stroke-width="4" transform="rotate(2 130 32)"/>
+    <text x="130" y="37" fill="#fff" font-family="ui-monospace,monospace" font-size="12" font-weight="900" letter-spacing="2" text-anchor="middle">LOCAL</text>
+    <g transform="translate(154 177)">
+      <rect x="0" y="0" width="51" height="70" fill="#f7f3e8" stroke="#142a2a" stroke-width="4" transform="rotate(-5 25 35)"/>
+      <rect x="41" y="-3" width="51" height="70" fill="#f8c8af" stroke="#142a2a" stroke-width="4" transform="rotate(2 66 32)"/>
+      <rect x="83" y="4" width="51" height="70" fill="#b9ddd0" stroke="#142a2a" stroke-width="4" transform="rotate(6 108 39)"/>
+      <text x="24" y="39" fill="#142a2a" font-family="ui-monospace,monospace" font-size="10" font-weight="900" text-anchor="middle">POST</text>
+      <text x="67" y="37" fill="#142a2a" font-family="ui-monospace,monospace" font-size="10" font-weight="900" text-anchor="middle">LIKE</text>
+      <text x="110" y="44" fill="#142a2a" font-family="ui-monospace,monospace" font-size="10" font-weight="900" text-anchor="middle">SAVE</text>
+    </g>
+  </g>
+
+  <g transform="translate(379 302)">
+    <path d="M0 0h104" stroke="#142a2a" stroke-width="6"/>
+    <path d="m93-11 12 11-12 11" fill="none" stroke="#142a2a" stroke-width="6"/>
+    <circle cx="19" cy="0" r="9" fill="#f0cd63" stroke="#142a2a" stroke-width="4"/>
+    <circle cx="53" cy="0" r="9" fill="#f0cd63" stroke="#142a2a" stroke-width="4"/>
+    <circle cx="85" cy="0" r="9" fill="#f0cd63" stroke="#142a2a" stroke-width="4"/>
+    <text x="52" y="31" fill="#48605d" font-family="ui-monospace,monospace" font-size="12" font-weight="900" letter-spacing="2" text-anchor="middle">端末内</text>
+  </g>
+
+  <g transform="translate(505 142)" filter="url(#rough)">
+    <rect width="230" height="300" rx="7" fill="#1f6662" stroke="#142a2a" stroke-width="6"/>
+    <text x="22" y="31" fill="#f0cd63" font-family="ui-monospace,monospace" font-size="12" font-weight="900" letter-spacing="3">YEARS</text>
+    <g transform="translate(18 53)">
+      <rect width="194" height="61" rx="4" fill="#ebe4d2" stroke="#142a2a" stroke-width="5"/>
+      <text x="24" y="38" fill="#142a2a" font-family="ui-monospace,monospace" font-size="18" font-weight="900">2012</text>
+      <rect x="130" y="25" width="39" height="11" rx="6" fill="#ee6b42" stroke="#142a2a" stroke-width="4"/>
+    </g>
+    <g transform="translate(18 126)">
+      <rect width="194" height="61" rx="4" fill="#ebe4d2" stroke="#142a2a" stroke-width="5"/>
+      <text x="24" y="38" fill="#142a2a" font-family="ui-monospace,monospace" font-size="18" font-weight="900">2018</text>
+      <rect x="130" y="25" width="39" height="11" rx="6" fill="#ee6b42" stroke="#142a2a" stroke-width="4"/>
+    </g>
+    <g transform="translate(32 199)">
+      <rect width="194" height="61" rx="4" fill="#f0cd63" stroke="#142a2a" stroke-width="5"/>
+      <text x="24" y="38" fill="#142a2a" font-family="ui-monospace,monospace" font-size="18" font-weight="900">2024</text>
+      <rect x="130" y="25" width="39" height="11" rx="6" fill="#ee6b42" stroke="#142a2a" stroke-width="4"/>
+    </g>
+  </g>
+
+  <g transform="translate(757 263)">
+    <path d="M0 42h38" stroke="#142a2a" stroke-width="6"/>
+    <circle cx="79" cy="42" r="42" fill="#f7f3e8" stroke="#142a2a" stroke-width="7"/>
+    <circle cx="79" cy="42" r="31" fill="#b9ddd0" stroke="#142a2a" stroke-width="2"/>
+    <path d="M60 42h38M79 23v38" stroke="#142a2a" stroke-width="5"/>
+    <path d="m108 73 32 32" stroke="#142a2a" stroke-width="15" stroke-linecap="round"/>
+    <path d="m108 73 32 32" stroke="#ee6b42" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(904 136)" filter="url(#slip)">
+    <g transform="rotate(-3 110 50)">
+      <rect width="222" height="103" fill="#f7f3e8" stroke="#142a2a" stroke-width="5"/>
+      <text x="18" y="26" fill="#142a2a" font-family="ui-monospace,monospace" font-size="12" font-weight="900">2024.06.12</text>
+      <path d="M18 48h174M18 68h145M18 87h91" stroke="#142a2a" stroke-width="7" stroke-linecap="round" opacity=".68"/>
+    </g>
+    <g transform="translate(16 98) rotate(2 110 50)">
+      <rect width="222" height="103" fill="#f8c8af" stroke="#142a2a" stroke-width="5"/>
+      <text x="18" y="26" fill="#142a2a" font-family="ui-monospace,monospace" font-size="12" font-weight="900">2018.10.03</text>
+      <path d="M18 48h174M18 68h152M18 87h112" stroke="#142a2a" stroke-width="7" stroke-linecap="round" opacity=".68"/>
+    </g>
+    <g transform="translate(4 196) rotate(-1 110 50)">
+      <rect width="222" height="103" fill="#b9ddd0" stroke="#142a2a" stroke-width="5"/>
+      <text x="18" y="26" fill="#142a2a" font-family="ui-monospace,monospace" font-size="12" font-weight="900">2012.04.21</text>
+      <path d="M18 48h174M18 68h132M18 87h102" stroke="#142a2a" stroke-width="7" stroke-linecap="round" opacity=".68"/>
+    </g>
+  </g>
+
+  <g transform="translate(80 81)">
+    <rect x="-11" y="-25" width="55" height="47" rx="4" fill="#ee6b42" stroke="#142a2a" stroke-width="4"/>
+    <path d="M-1-27v-10h35v10M0-17V13M33-17V13" fill="none" stroke="#142a2a" stroke-width="4"/>
+    <circle cx="16" cy="-2" r="8" fill="#f0cd63" stroke="#142a2a" stroke-width="4"/>
+    <text x="61" y="7" fill="#142a2a" font-family="'Hiragino Sans','Yu Gothic',sans-serif" font-size="31" font-weight="900" letter-spacing="2">ポスト蔵</text>
+  </g>
+  <text x="80" y="553" fill="#142a2a" font-family="'Hiragino Sans','Yu Gothic',sans-serif" font-size="24" font-weight="800">Xアーカイブを、アップロードせずに探す。</text>
+  <text x="1118" y="553" fill="#48605d" font-family="ui-monospace,monospace" font-size="12" font-weight="900" letter-spacing="2" text-anchor="end">post-gura.yhay81.com</text>
+</svg>
